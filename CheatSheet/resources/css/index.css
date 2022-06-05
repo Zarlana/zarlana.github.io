@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header,
+.nav,
+.nav ul {
+    height: 60px;
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.header h1 {
+    color: darksalmon;
+}
+
+.nav {
+    background: #000;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    transition: background .5s;
+}
+
+.nav a:link,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.illuminated:hover {
+    background: darksalmon;
+    cursor: pointer;
+    transition: background .5s;
+    color: #000;
+}
+
+.floatli {
+    float: right;
+    padding: 30px;
+}
+
+.main {
+    background: url(/resources/img/jess-bailey-q10VITrVYUM-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.container {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#elements,
+#tables,
+#semantic,
+#characters {
+    padding: 40px;
+}
+
+.main table {
+    width: 80%;
+    margin: 40px auto;
+    background-color: whitesmoke;
+    opacity: 0.95;
+    border-radius: 20px;
+}
+
+.thh2 {
+    margin: 10px 0;
+}
+
+th,
+td {
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.footer {
+    background: #000;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.footer p {
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    margin: auto 10px;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #fff;
+}
+
+.foto {
+    font-size: 12px;
+    color: grey;
+    float: right;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header h1 {
+        font-size: 18px;
+    }
+
+    .nav {
+        font-size: 14px;
+    }
+}
